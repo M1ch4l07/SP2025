@@ -59,6 +59,7 @@ pause
 goto :menu
 
 :6
+cd ..
 rmdir /s /q "%MainDirectoryPath%"
 pause
 goto :menu
